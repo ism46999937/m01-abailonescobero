@@ -1,0 +1,61 @@
+PREGUNTES CAPITOL 7A
+
+1. Què vol dir una transmissió Full-Duplex ? I Half-Duplex ?
+Half-Duplex: Comunicaió que només permet que una estació rebi mentres l’altra transmet.
+Full-Duplex: Comunicació que permet la recepció i transmissió en forma simultànea. És a dir, una estació pot transmetre i rebre al mateix moment. 
+2. Què vol dir la topologia física d'una xarxa ? I la lògica ?. Dibuixa un exemple en que la tipologia lògica i física són iguals i un altre dibuix en que son diferents
+La topologia física és una configuració de nodes i connexions físiques entre ells.
+La topologia lògica és la form en que una xarxa transfereix trames de un node al següent. Aquesta configuració consisteix en connexions virtuals entre els nodes de una xarxa independentment de la seva distribució física.
+Lògica multiaccés:
+
+
+
+
+
+
+
+
+
+
+
+
+
+	Física multiaccés.
+
+
+	
+
+
+
+
+3. Què és un circuit virtual en  una xarxa punt a punt lògica ?.
+És un mètode pel qual les dades es passen a un destí sobre més de un circuit real de comunicacions. Els usuaris finals no percebeixen la commutació intermitja entre el origen i el destí.
+4. Què vol dir una topologia lògica multiaccès  ?. Digues un tipus de tecnologia que utilitza aquest tipus de tecnologia
+Permet una cantitat de nodes comunicar-se amb els mateixos medis compartits. Cada node veu totes les trames que es troben en el medi, però solament el node al qual es dirigeix la trama processa els seus continguts. Tipus de tecnologia: Generalment CSMA/CD o CSMA/CA.
+5. Què és un token en la topologia lògica d'anell ?
+Un token és una senyal que s’utilitza a la topologia d’anell per indicar que no s’estan transmetent dades.
+6. Què és una direcció MAC ?. Tenen jerarquia ?
+Una direcció MAC és aquella que administra la trama i el control d’accés als medis.  El medi compartit quequereix que el encapçalat de la trama de Ethernet utilitzi de la capa de enllaç de dades per identificar els nodes d’origen i de destí.
+7. Les direccions MAC canvien al accedir d'una xarxa a un altre ? I si és així, quin dispositiu les modifica ?
+
+8. En un medi molt inestable, que és es necessari ? Més velocitat ? Més control ? Perquè ?. I en un medi segur ?
+En un medi molt inestable més control (ja que com diu la paraula és inestable)  i en un medi segur més velocitat (ja que com és suficientment segur li podem donar més velocitat).
+9. Què vol dir el mètode de control d'accés al medi ?
+És un control contra les possibles interferències que hi puguin haver-hi.
+10. Què és un node ?. Posa un exemple
+És la notació de la capa 2 per a dispositius de xarxa connectats a un medi comú. Ej: PC.
+11. Què ocupa més bytes, una trama o un paquet ?
+Un paquet.
+12. Quines son les dues subcapes que conté una NIC ? Per què serveixen ?
+Té dues subcapes:
+La superior defineix els processos de software que proporcionen serveis als protocols de capa de xarxa.
+La inferior defineix els processos d’accés als medis que realitza el hardware.
+13. Quins són els dos mètodes bàsics de control d'accés al medi per a medis compartits ? Fes una descripció breu de cada un
+El controlat: Cada node té el seu propi temps per utilitzar el medi.
+Amb base en la contenció: Tots els nodes competeixen per l’ús del medi.
+14. Cerca per Internet i descriu breument els protocols
+1. Ethernet
+2. PPP
+3. HDLC
+4. ATM
+5. Frame Relay
